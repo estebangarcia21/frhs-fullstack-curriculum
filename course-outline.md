@@ -4,7 +4,8 @@
    1. Setting up VS Code
    2. Installing node and yarn
 2. Introduction to programming
-   1. Javascript
+   1. The command line
+   2. Javascript
 3. Introduction to web design
    1. Making a small site with HTML
    2. Making our website look pretty with CSS
