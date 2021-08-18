@@ -7,9 +7,17 @@
    2. Javascript
       1. Programming basics
    3. Project: _To be determined_
-3. Github
-   1. The power of open source
-   2. The repository system
+3. Git and Github
+   1. Git
+      1. Version Control Systems (VCS)
+      2. Differences and commits
+      3. Branches and merging
+   2. Github
+      1. The power of open source
+      2. Organizations and repositories
+      3. Issues and pull requests
+      4. Linking up our Git repository to Github
+      5. Best collaboration practices
 4. Web design basics
    1. HTML
    2. CSS
