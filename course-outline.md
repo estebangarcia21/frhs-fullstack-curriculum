@@ -77,6 +77,6 @@
     1. Docker
     2. Deploying our backend (Containerized)
     3. Deplying our frontend (Serverless)
-14. Finished! Expaning your knowledge with these topics...
+14. Finished! Expanding your knowledge with these topics...
     1. Typescript
     2. AWS
