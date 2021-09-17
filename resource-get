@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+
+# Run the script by first doing `chmod +x resource-get` then `./resource-get {unit-name}`
+
+import sys
+
+
+def main():
+    args = sys.argv[1:]
+
+    if len(args) == 0:
+        print('Specify the unit number to get the resources from!')
+        exit(0)
+
+    unit_num = args[0]
+
+
+if __name__ == '__main__':
+    main()
