@@ -19,7 +19,7 @@ $ ls <directoryName>
 List hidden items as well with the `-a` flag.
 
 ```
-$ls -a <fileName>
+$ ls -a <fileName>
 ```
 
 ## cd
