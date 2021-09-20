@@ -6,7 +6,7 @@ Create a directory that in the following format. Then create the file structure.
 $ mkdir <title>
 ```
 
-Verify you work using the `verify.js` script. For example, I want to verify the `bundle` file structure is correct.
+Verify you work using the `check.js` script. For example, I want to verify the `bundle` file structure is correct.
 
 Open a terminal window. `View > Terminal`
 
