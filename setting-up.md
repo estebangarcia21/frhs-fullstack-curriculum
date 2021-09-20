@@ -10,6 +10,12 @@ C Drive > Users > Public > Public Downloads > Ubuntu_1804.2019.522_0.appx
 
 Open Visual Studio Code. Install the extension: Remote - WSL
 
+## You can use the quick setup script
+
+```
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/estebangarcia21/frhs-fullstack-curriculum/master/setup.sh)"
+```
+
 ## Refresh APT package registry
 
 ```
