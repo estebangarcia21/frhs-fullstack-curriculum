@@ -10,19 +10,23 @@ C Drive > Users > Public > Public Downloads > Ubuntu_1804.2019.522_0.appx
 
 Open Visual Studio Code. Install the extension: Remote - WSL
 
-## You can use the quick setup script
+### You can use the quick setup script
+
+If you already installed it manually but you are using a different computer, paste this into bash.
 
 ```
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/estebangarcia21/frhs-fullstack-curriculum/master/setup.sh)"
 ```
 
-## Refresh APT package registry
+## Installing the packages
+
+### Refresh APT package registry
 
 ```
 $ sudo apt update
 ```
 
-## Node & NPM
+### Node & NPM
 
 Node
 
@@ -38,7 +42,7 @@ $ sudo apt install npm
 
 Use the arrow keys and enter to choose the options when being prompted to restart services.
 
-## Git
+### Git
 
 Git should already be installed. Confirm by typing in
 
@@ -52,7 +56,7 @@ You should get something along the lines of...
 git version 2.17.1
 ```
 
-## MySQL
+### MySQL
 
 ```
 $ sudo apt install mysql-server
@@ -89,13 +93,13 @@ Exit by typing exit...
 mysql> exit
 ```
 
-## Docker
+### Docker
 
 ```
 $ sudo apt install docker.io
 ```
 
-## Kubernetes (Maybe)
+### Kubernetes (Do not install for now)
 
 Install Micro K8s
 
