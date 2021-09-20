@@ -105,6 +105,17 @@ const trees = {
       file('main.js'),
       file('styles.css')
     ])
+  ],
+  server: [
+    file('tsconfig.json'),
+    file('.prettierrc'),
+    file('package.json'),
+    directory('src', [
+      directory('graphql', [
+        file('schema.gql')
+      ]),
+      file('index.ts')
+    ])
   ]
 };
 
@@ -116,7 +127,6 @@ function main() {
   }
 
   const currentTree = trees[title];
-
   if (!currentTree) {
     exit(
       `No file tree found for ${title}. These are the possible file trees you can check: ${fmtList(
@@ -126,7 +136,6 @@ function main() {
   }
 
   const files = traverseTree(title, currentTree);
-
   if (files.length) {
     exit(
       `Missing files in ${title}: ${fmtList(files)}\n\nTry adding these files!`

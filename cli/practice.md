@@ -52,3 +52,16 @@ bundle/
 │  ├─ main.js
 │  ├─ styles.css
 ```
+
+## server
+
+```
+server/
+├─ tsconfig.json
+├─ .prettierrc
+├─ src/
+│  ├─ graphql/
+│  │  ├─ schema.gql
+│  ├─ index.ts
+├─ package.json
+```
