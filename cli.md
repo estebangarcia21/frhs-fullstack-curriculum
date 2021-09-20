@@ -50,6 +50,30 @@ You can also create multiple files at once. For example...
 $ touch a.txt b.txt c.txt
 ```
 
+## mv
+
+Move a file to another directory or file.
+
+Moving a file to a different directory...
+
+```
+mv file.txt someDirectory
+```
+
+Renaming a file...
+
+```
+mv file.txt newName.txt
+```
+
+## cp
+
+Copy a file.
+
+```
+cp <fileName> <newFileName>
+```
+
 ## mkdir
 
 Create a directory.
