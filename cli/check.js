@@ -27,9 +27,9 @@ function fmtList(arr) {
 }
 
 /**
- *
- * @param {string} name
- * @param {Array} items
+ * A directory in a tree.
+ * @param {string} name The name of the directory.
+ * @param {Array} items The files or directories in the directory.
  */
 function directory(name, items) {
   return {
@@ -39,8 +39,8 @@ function directory(name, items) {
 }
 
 /**
- *
- * @param {string} name
+ * A file in a directory.
+ * @param {string} name The name of the file.
  */
 function file(name) {
   return {
