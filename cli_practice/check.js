@@ -49,15 +49,6 @@ function file(name) {
 }
 
 /**
- * Append exampleId to the begging of a path
- * @param {string} path The path to prepend the exampleId to.
- * @returns {string} The path with the exampleId prepended.
- */
-function prependTitle(path) {
-  return `${title}/${path}`;
-}
-
-/**
  * Check if all files in a directory exist.
  * @param {string} cwd The current working directory.
  * @param {array} tree The tree to traverse.
