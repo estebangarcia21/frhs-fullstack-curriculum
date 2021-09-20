@@ -9,18 +9,24 @@ package() {
 
 sudo apt update
 
+echo -e "
+=========================
+Javascript
+=========================
+"
+
 # Javascript
 
 package nodejs
 package npm
 
-if ! command -v "git" &>/dev/null; then
-    echo "git could not be found. Installing..."
-
-    package git
-fi
-
 # mysql
+
+echo -e "
+=========================
+MySQL
+=========================
+"
 
 package mysql-server
 
@@ -39,6 +45,12 @@ MAKE SURE TO MAKE THE PASSWORD: root
 "
 
 sudo mysql_secure_installation
+
+echo -e "
+=========================
+Other
+=========================
+"
 
 # docker
 
