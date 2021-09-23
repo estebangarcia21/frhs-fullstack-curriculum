@@ -99,54 +99,12 @@ mysql> exit
 $ sudo apt install docker.io
 ```
 
-### Kubernetes (Do not install for now)
+### Node 12 LTS
 
-Install Micro K8s
-
-```
-$ sudo snap install microk8s --classic
-```
-
-Add current user to the microk8s admin group
+Update our node version to Node v12 LTS.
 
 ```
-$ sudo usermod -a -G microk8s $USER
-$ sudo chown -f -R $USER ~/.kube
-```
-
-Re-enter session to apply changes
-
-```
-$ su - $USER
-```
-
-Check status of Kubernetes while it starts
-
-```
-$ microk8s status --wait-ready
-```
-
-Turn on the desired Kubernetes services
-
-```
-$ microk8s enable dashboard dns ingress
-```
-
-Start using Kubernetes
-
-```
-$ microk8s kubectl get all --all-namespaces
-```
-
-Access the Kubernetes dashboard
-
-```
-$ microk8s dashboard-proxy
-```
-
-Start and stop Kubernetes to save battery on laptops
-
-```
-$ microk8s start
-$ microk8s stop
+$ sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
+$ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+$ sudo apt -y install nodejs
 ```
