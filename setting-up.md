@@ -108,3 +108,11 @@ $ sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificat
 $ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 $ sudo apt -y install nodejs
 ```
+
+### Expo CLI
+
+Install the Expo CLI using `npm`.
+
+```
+$ sudo npm install -g expo-cli
+```
