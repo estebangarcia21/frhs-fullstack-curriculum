@@ -33,13 +33,13 @@ $ sudo apt update
 Node
 
 ```
-$ sudo apt install nodejs
+$ sudo apt -y install nodejs
 ```
 
 npm
 
 ```
-$ sudo apt install npm
+$ sudo apt -y install npm
 ```
 
 Use the arrow keys and enter to choose the options when being prompted to restart services.
@@ -61,7 +61,7 @@ git version 2.17.1
 ### MySQL
 
 ```
-$ sudo apt install mysql-server
+$ sudo apt -y install mysql-server
 ```
 
 ```
@@ -98,7 +98,7 @@ mysql> exit
 ### Docker
 
 ```
-$ sudo apt install docker.io
+$ sudo apt -y install docker.io
 ```
 
 ### Node 12 LTS
