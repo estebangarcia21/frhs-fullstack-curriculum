@@ -8,6 +8,8 @@ Install Ubuntu
 C Drive > Users > Public > Public Downloads > Ubuntu_1804.2019.522_0.appx
 ```
 
+Set your username to your first and last name together. For example: `estebangarcia`. Set your password to `ict`.
+
 Open Visual Studio Code. Install the extension: Remote - WSL
 
 ### You can use the quick setup script
