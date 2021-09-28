@@ -4,7 +4,7 @@
 
 package() {
     echo $1
-    sudo apt install $1
+    sudo apt -y install $1
 }
 
 sudo apt update
@@ -17,7 +17,10 @@ Javascript
 
 # Javascript
 
+sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 package nodejs
+
 package npm
 
 # mysql
@@ -32,6 +35,8 @@ package mysql-server
 
 sudo service mysql start
 
+clear
+
 echo -e "
 Installation steps (type in order):
 - n
@@ -42,6 +47,7 @@ Installation steps (type in order):
 - y
 
 MAKE SURE TO MAKE THE PASSWORD: root
+====================================
 "
 
 sudo mysql_secure_installation
