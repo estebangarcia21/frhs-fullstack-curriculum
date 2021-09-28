@@ -29,8 +29,8 @@
    3. CommonJS
    4. ES6
    5. Project: Creating a javascript library
-6. React
-   1. Bootstrapping a project with CRA
+6. React Native
+   1. The Expo Framework
       1. Exploring the project
    2. React Fundamentals
       1. Javascript inside HTML??? JSX tutorial
@@ -40,8 +40,7 @@
       3. State management
          1. Legacy state management (Class API)
          2. Modern state management (Hooks API)
-   3. NextJS / Gatsby
-   4. Project: Recreating our shopping website
+   3. Project: Recreating our shopping website
 7. Backend development 1
    1. Creating the project
    2. Project structure best practices
@@ -75,8 +74,7 @@
     4. Our PaaS: Heroku
 13. Going online!
     1. Docker
-    2. Deploying our backend (Containerized)
-    3. Deplying our frontend (Serverless)
+    2. Deploying our backend
 14. Finished! Expanding your knowledge with these topics...
     1. Typescript
     2. AWS
