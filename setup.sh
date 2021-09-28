@@ -52,12 +52,13 @@ cat <<EOF
 MySQL Security Configuration
 ===================================
 Installation steps (type in order):
-- n
-- root
-- n
-- n
-- n
-- y
+n
+root
+root
+n
+n
+n
+y
 
 MAKE SURE TO MAKE THE PASSWORD: root
 ====================================
