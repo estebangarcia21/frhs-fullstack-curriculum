@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Setup the Ubuntu development environment.
+# Install all the necessary things in WSL.
 
 package() {
     echo $1
