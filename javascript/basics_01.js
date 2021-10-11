@@ -58,6 +58,36 @@
 
 /*
  * =============================
+ * Arithmetic
+ * =============================
+ */
+{
+  // Addition (+)
+  var addition = 1 + 2;
+
+  // Subtraction (-)
+  var subtraction = 1 - 2;
+
+  // Multiplication (*)
+  var multiplication = 1 * 2;
+
+  // Division (/)
+  var division = 1 / 2;
+
+  // Modulo (%) - returns the remainder of a division.
+  var modulo = 1 % 2;
+
+  // Increment (++)
+  var increment = 1;
+  increment++;
+
+  // Decrement (--)
+  var decrement = 1;
+  decrement--;
+}
+
+/*
+ * =============================
  * Logging
  * =============================
  */
