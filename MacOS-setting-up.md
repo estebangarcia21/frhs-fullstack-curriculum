@@ -1,8 +1,8 @@
-# System Setup
+# Developer Tools
 
 ## Warning
 
-This file wasn't made by Esteban. There is no fast setup file.
+This file wasn't made by Esteban. There is no fast setup script.
 <br />caveat emptor
 
 ## Installation (Brew)
@@ -13,7 +13,7 @@ If you haven't done anything like this before, run:
 xcode-select -install
 ```
 
-and install brew with:
+And install `brew` with:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -30,12 +30,14 @@ NOTE: Ubuntu isn't needed, and docker MUST be installed with the GUI installer. 
 
 ## Configuring MySQL
 
-start the service with:
+Start the service with:
 
 ```
 brew services start mysql
 ```
+Please note: This creates a startup task and MySQL will run at startup.
 
+<br />
 Then, configure it with:
 
 ```
@@ -61,7 +63,7 @@ Enter MySQL with:
 sudo mysql -u root -p
 ```
 
-and enter in your password (root).
+And enter in your password (root).
 <br />Exit by typing:
 
 ```
@@ -84,7 +86,7 @@ Simply install vscode with `brew`:
 brew install visual-studio-code
 ```
 
-and install the following plugins:
+And install the following plugins:
 
 - Prettier - Code Formatter
 - Auto Rename Tag
