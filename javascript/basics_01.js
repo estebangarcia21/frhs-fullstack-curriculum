@@ -133,15 +133,24 @@
     console.log('Two is not equal to three!');
   }
 
-  // You can also use else if to check for multiple conditions.
+  // You can also use else if to check for another condition if a condition fails.
   if (2 === 3) {
     console.log('Two is equal to three!');
   } else if (2 === 2) {
     console.log('Two is equal to two!');
   }
 
-  // All three...
+  // Chain as many else ifs as you want!
+  if (2 < 3) {
+    console.log('Something!');
+  } else if (2 === 3) {
+    console.log('Something!');
+  } else if (2 > 3) {
+    console.log('Something!');
+  }
+
   if (2 === 3) {
+    // All three...
     console.log('Two is equal to three!');
   } else if (2 === 2) {
     console.log('Two is equal to two!');
