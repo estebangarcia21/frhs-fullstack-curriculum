@@ -84,6 +84,18 @@
   // Decrement (--)
   var decrement = 1;
   decrement--;
+  
+  // Adding a value to a variable
+  var x = 5;
+  var y = 10;
+  
+  x = x + 50;
+
+  // You can do a shortcut with + - / *
+  x += 50; // the same as x = x + 50
+  x *= 50;
+  x -= 50;
+  x /= 50;
 }
 
 /*
