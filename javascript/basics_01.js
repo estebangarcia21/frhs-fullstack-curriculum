@@ -96,6 +96,11 @@
   x *= 50;
   x -= 50;
   x /= 50;
+  
+  // You can join strings using the + operator
+  var a = "Hello, ";
+  var b = "world!";
+  var msg = a + b; // "Hello, world!"
 }
 
 /*
@@ -119,6 +124,14 @@
   for (var i = 0; i < 5; i++) {
     console.log('Looping! ' + i);
   }
+  
+  // A for loop contains 3 sections. Initialization, condition, iteration. Each section is split using a semicolon (;)
+  // Initialization: Initialize a variable that will keep track of the loop iteration.
+  // Condition: Run the loop until the condition evaluates to false.
+  // Iteration: Every time the loop runs, what will happen to the initialized variable?
+  //
+  // For most cases, we always initialize a variable named i and set it to 0. We usually always just want to increment by one after each iteration.
+  // If you recall from arithmetic, variable++ is a shorthand for adding one to a variable, so we usually do that.
 }
 
 /*
