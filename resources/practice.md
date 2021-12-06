@@ -28,8 +28,8 @@ Create a program that outputs `You can buy a drink` if your age is equal to or g
 Read the program arguments using the `__readArg` function provided by the verifier. For example:
 
 ```js
-var age = __readArg('age');
-var cash = __readArg('cash');
+const age = __readArg('age');
+const cash = __readArg('cash');
 ```
 
 ## JS-Practice-ConditionalOr
