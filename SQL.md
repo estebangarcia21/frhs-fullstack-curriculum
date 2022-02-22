@@ -29,9 +29,10 @@ A table is a model of an object.
 ### Create
 ```sql
 CREATE TABLE <table_name> (
-  id PRIMARY KEY,
+  id INT NOT NULL AUTO_INCREMENT,
   column_name column_type column_attributes,
-  ...
+  ...,
+  PRIMARY KEY (id)
 );
 ```
 
